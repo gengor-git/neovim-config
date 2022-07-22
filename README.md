@@ -18,11 +18,13 @@ cd ~/.config/nvim/java-debug
 
 
 ```bash
-git clone https://github.com/microsoft/java-debug ~/.config/nvim/java-debug
+git clone https://github.com/microsoft/vscode-java-test.git ~/.config/nvim/vscode-java-test
 
-cd ~/.config/nvim/java-debug
+cd ~/.config/nvim/vscode-java-test
 
-./mvnw clean install
+npm install
+
+npm run build-plugin
 ```
 
 ## Based on Neovim from scratch
